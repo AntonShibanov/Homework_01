@@ -8,7 +8,7 @@ CREATE TABLE "Transactions" (
 );
 
 CREATE TABLE "Products" (
-  "prod_id" int PRIMARY KEY,
+  "prod_id" SERIAL PRIMARY KEY,
   "product_id" int not NULL,
   "brand" varchar not NULL,
   "product_line" varchar not NULL,
